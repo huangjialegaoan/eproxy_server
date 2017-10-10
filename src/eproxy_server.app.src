@@ -7,7 +7,7 @@
         {registered, [
             mp_sup
         ]},
-        {applications, [kernel, stdlib, cowboy]},
+        {applications, [kernel, stdlib, crypto, cowboy]},
         {mod, {eps_app, []}}
     ]
 }.
